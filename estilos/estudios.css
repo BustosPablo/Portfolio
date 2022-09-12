@@ -58,7 +58,7 @@
     z-index: 100;
 }
 
-@media (max-width:768px){
+@media (max-width:960px){
     #pop_img{
         width: 300px;
         top: 40%;
