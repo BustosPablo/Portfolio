@@ -1,0 +1,14 @@
+#imagenes_proyecto{
+    filter: brightness(0.8);
+}
+
+#imagenes_proyecto:hover{
+    cursor: pointer;
+    filter: contrast(0.5);
+}
+
+#carouselExampleCaptions h5{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white
+}

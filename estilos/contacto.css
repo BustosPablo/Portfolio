@@ -1,0 +1,105 @@
+.lista_contacto{
+    list-style: none;
+}
+
+.pop_correo{
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    background: rgba(0, 0, 0, .8);
+    width: 60%;
+    height: 65%;
+    z-index: 100;
+    display: none;
+}
+
+.enlaces{
+    color: white;
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    color: orange;
+}
+
+.form-label{
+    margin-top: 2rem;
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#mensaje{
+    resize: none;
+    height: 250px;
+}
+
+#botonera_pop_correo{
+    width: 100%;
+    height: 40px;
+    border: 1px solid orange;
+    font-weight: bold;
+    color: orange;
+    background: none;
+}
+
+#close_correo{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+
+@media (min-width:300px) and (max-width:415px){
+    .pop_correo{
+        position: fixed;
+        top: 20%;
+        left: 0;
+        background: rgba(0, 0, 0, .8);
+        width: 100%;
+        height: 75%;
+        z-index: 100;
+        display: none;
+    }
+}
+
+@media (min-width:500px) and (max-width:960px){
+    .pop_correo{
+        position: fixed;
+        top: 20%;
+        left: 0;
+        background: rgba(0, 0, 0, .8);
+        width: 100%;
+        height: 50%;
+        z-index: 100;
+        display: none;
+    }
+}
+
+@media all and (orientation: landscape){
+    .pop_correo{
+        position: fixed;
+        top: 0%;
+        left: 18%;
+        background: rgba(0, 0, 0, .8);
+        width: 60%;
+        height: auto;
+        z-index: 100;
+        display: none;
+    }
+
+    .form-label{
+        margin-top: 1rem;
+    }
+    
+    #mensaje{
+        resize: none;
+        height: 100px;
+    }
+}
